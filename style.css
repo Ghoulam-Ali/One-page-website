@@ -29,6 +29,10 @@ body {
 .desktop-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: var(--light-color);
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
 }
 
 .desktop-nav .menu-items {
