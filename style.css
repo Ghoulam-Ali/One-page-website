@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -78,16 +78,84 @@ body {
   color: var(--light-color);
 }
 
+
+/* Buttons */
 a.btn {
   background-color: var(--red-color);
   color: var(--light-color);
   border-radius: 24px;
   padding: 14px 30px;
+  text-decoration: none;
+  font-weight: bold;
 }
+
+a.btn.cyan {
+  color: var(--dark-color);
+  background-color: var(--cyan-color);
+}
+
+
 
 
 /* Hero Section */
 .hero-container {
   height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-container .left {
+  flex: 1;
+}
+
+.hero-container .left p {
+  font-size: 24px;
+}
+
+.hero-container .left h1 {
+  font-family: 'Montserrat';
+  font-size: 36px;
+  margin: 8px 0 28px 0;
+}
+
+.hero-container .left .rak {
+  color: var(--red-color);
+}
+
+.hero-container .left .btn {
+  margin-right: 20px;
+}
+
+.hero-container .right {
+  padding-right: 30px;
+}
+
+
+/* Hero BG and Polygone */
+.hero-bg {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.hero-container .polygon {
+  position: absolute;
+  z-index: -1;
+  top: 100px;
+  left: 240px;
+}
+.hero-container .polygon2 {
+  position: absolute;
+  z-index: -1;
+  top: 180px;
+  left: 480px;
+}
+.hero-container .polygon3 {
+  position: absolute;
+  z-index: -1;
+  top: 300px;
+  left: 540px;
 }
