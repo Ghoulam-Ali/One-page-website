@@ -5,8 +5,8 @@
   --red-color:   #D80032;
   --cyan-color:  #41EAD4;
 
-  --red-hover-color:  #be0732;
-  --cyan-hover-color: #6af3e1;
+  --red-hover-color:  #a11938;
+  --cyan-hover-color: #3ad2be;
 }
 
 
@@ -74,12 +74,12 @@ body {
   bottom: -14px;
 } 
 
+
+/* Buttons */
 .desktop-nav .menu-items li a.btn{
   color: var(--light-color);
 }
 
-
-/* Buttons */
 a.btn {
   background-color: var(--red-color);
   color: var(--light-color);
@@ -87,6 +87,7 @@ a.btn {
   padding: 14px 30px;
   text-decoration: none;
   font-weight: bold;
+  transition: background-color 300ms;
 }
 
 a.btn.cyan {
@@ -94,8 +95,12 @@ a.btn.cyan {
   background-color: var(--cyan-color);
 }
 
-
-
+a.btn:hover {
+  background-color: var(--red-hover-color);
+}
+a.btn.cyan:hover {
+  background-color: var(--cyan-hover-color);
+}
 
 /* Hero Section */
 .hero-container {
