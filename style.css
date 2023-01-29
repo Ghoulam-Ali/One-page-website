@@ -1,0 +1,11 @@
+/* Colors */
+
+:root {
+  --dark-color:  #2B2D42;
+  --light-color: #FEFEFE;
+  --red-color:   #D80032;
+  --cyan-color:  #41EAD4;
+
+  --red-hover-color:  #be0732;
+  --cyan-hover-color: #6af3e1;
+}
