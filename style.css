@@ -9,7 +9,6 @@
   --cyan-hover-color: #3ad2be;
 }
 
-
 /* Rest */
 * {
   margin: 0;
@@ -238,7 +237,7 @@ a.btn.cyan:hover {
 
 .hero-container .polygon,
 .hero-container .polygon2,
-.hero-container .polygon {
+.hero-container .polygon3 {
   opacity: 0;
   animation-name: fadeIn, rotate;
   animation-duration: 800ms, 80s;
