@@ -137,7 +137,7 @@ a.btn.cyan:hover {
 }
 
 
-/* Hero BG and Polygone */
+/* Hero background and Polygone */
 .hero-bg {
   position: absolute;
   z-index: -1;
@@ -164,3 +164,6 @@ a.btn.cyan:hover {
   top: 300px;
   left: 540px;
 }
+
+
+/* Animation */
