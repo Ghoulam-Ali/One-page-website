@@ -13,6 +13,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="glider.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -123,7 +125,6 @@
 
         <div class="testimonial-container">
           <div class="testimonials">
-
             <div class="testimonial">
               <div class="slide-container">
                 <div class="content">
@@ -165,19 +166,35 @@
                 <img src="images/Testimonial3.png" alt="">
               </div>
             </div>
-
           </div>
 
           <span class="slider-prev">
             <img src="./images/LeftArrow.svg" alt="">
           </span>
-          <span class="slider-prev">
+          <span class="slider-next">
             <img src="./images/RightArrow.svg" alt="">
           </span>
+
+          <div role="tablist" class="dots-container">
+            <div class="dots"></div>
+          </div>
+
         </div>
       </div>
     </section>
     <!-- End of Testimonial Section -->
+
     <script src="main.js"></script>
+    <script src="glider.min.js"></script>
+    <script>
+      new Glider(document.querySelector(".testimonials"), {
+        slidesToShow : 1,
+        dots:".dots",
+        arrows: {
+          prev: ".slider-prev",
+          next: ".slider-next",
+        },
+      });
+    </script>
 </body>
 </html>

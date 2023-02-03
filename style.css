@@ -328,3 +328,40 @@ a.btn.cyan:hover {
   width: 100%;
   object-fit: cover;
 }
+
+
+/* Testimonial Section */
+.slide-container {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.slide-container .content{
+  padding: 8px 24px;
+}
+
+.testimonial .name {
+  background: var(--dark-color);
+  color: var(--light-color);
+  padding: 8px 24px;
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.testimonial-container {
+  position: relative;
+}
+
+.slider-prev,
+.slider-next {
+  position: absolute;
+  top: 68px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+.slider-next {
+  right: 0;
+}
